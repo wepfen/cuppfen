@@ -1,1 +1,1 @@
-"cupper theme based website" 
+Cupper theme based website
