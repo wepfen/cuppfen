@@ -5,7 +5,7 @@ draft = false
 description = "Bluehens CTF 2023 "
 showTableOfContents = false
 ## below are user-defined parameters (lower case keys recommended)
-tags = ["Misc","Bluehens", "Stego", "Least significant bit", "Writeup"]
+tags = ["Misc","Stego","Writeup"]
 type = "post"
 +++
 
