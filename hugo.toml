@@ -1,0 +1,120 @@
+baseURL = "https://tyron.alwaysdata.net/"
+defaultContentLanguage = "en"
+languageCode = "en"
+
+title = "wepfen.top"
+
+theme = "cupper-hugo-theme"
+
+enableRobotsTXT = false
+enableEmoji = true
+enableGitInfo = true
+  
+[menu]
+  [[menu.nav]]
+    # Unique identifier for a menu item
+    identifier = "posts"
+
+    url = "/posts/"
+    
+    # You can add extra information before the name (HTML format is supported), such as icons
+	pre = ""
+    # You can add extra information after the name (HTML format is supported), such as icons
+    post = ""
+
+    # Display name
+    name = "Posts"
+
+    # Weights are used to determine the ordering
+    weight = 1
+	
+  [[menu.nav]]
+    identifier = "projects"
+    name = "Projects"
+    url = "/projects/"
+    weight = 5
+	
+  [[menu.nav]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 3
+
+	
+  [[menu.nav]]
+    identifier = "cramptes"
+    name = "Cramptés"
+    url = "/cramptes/"
+    weight = 4
+	
+  [[menu.nav]]
+    identifier = "whoami"
+    name = "Whoami"
+    url = "/whoami/"
+    weight = 2
+	
+	
+[params]
+  description = "Cybersecurity student and noob-tier CTF player."
+  homeMetaContent = "An accessibility-friendly Hugo theme, ported from the original Cupper project."
+  
+  footer = "Made with :heart: and also [Hugo](https://gohugo.io/) with [Cupper](https://github.com/zwbetz-gh/cupper-hugo-theme) theme."
+  
+  dateFormat = "Jan 2, 2006"
+  katex = true
+  
+  hideHeaderLinks = false
+  showThemeSwitcher = false
+  defaultDarkTheme = false
+  moveFooterToHeader = false
+  
+  search = false
+
+  
+  #navTitleText = "nav"
+  logoAlt = "face reveal"
+  
+  avatarURL = "/images/avatar.jpg"
+  
+  metaKeywords = ["blog", "cupper", "hugo", "writeups", "infosec", "2600", "cybersecurity", "CTF"]
+  
+  customCSS = ["css/custom_01.css"]
+  
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      definitionList = true
+      footnote = true
+      linkify = true
+      linkifyProtocol = 'https'
+      strikethrough = true
+      table = true
+      taskList = true
+	  typograhper = true
+# html 	  
+    [markup.goldmark.renderer]
+      unsafe = true
+	  hardwraps = false
+	  xhtml = false
+    [markup.goldmark.parser]
+      autoHeadingID = true
+      autoHeadingIDType = 'github'
+      wrapStandAloneImageWithinParagraph = true
+	  attribute = true
+	  
+# text hilighting
+
+  [markup.highlight]
+    codeFences = true
+    lineAnchors = ''
+    lineNoStart = 1
+    lineNos = true
+    lineNumbersInTable = true
+    noClasses = true
+    style = 'monokai'
+    tabWidth = 4
+
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 6
+    ordered = false
