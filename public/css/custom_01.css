@@ -1,0 +1,24 @@
+
+body{
+	background: #F5EEC8;
+}
+
+.buttons_8831>img{
+	 margin-top: 0rem !important; /* empecher l'ecart entre les lignes de boutons */
+}
+
+/* padding du header, la partie à gauche du site */
+.intro-and-nav > div{
+	padding : 1.2rem
+}
+
+.socials>img {
+	width: 32px;
+	height: 32px;
+	padding: auto;
+}
+
+.socials{
+	margin-left: auto;
+	margin-right: auto;
+}
