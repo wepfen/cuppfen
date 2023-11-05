@@ -3,16 +3,23 @@ body{
 	background: #F5EEC8;
 }
 
-.buttons_8831>img{
+.buttons_8831 > img{
 	 margin-top: 0rem !important; /* empecher l'ecart entre les lignes de boutons */
 }
 
-/* padding du header, la partie à gauche du site */
-.intro-and-nav > div{
-	padding : 1.2rem
+.buttons_8831{
+	
+	margin-top: 0rem;
 }
 
-.socials>img {
+
+
+/* padding du header, la partie à gauche du site */
+.intro-and-nav > div{
+	padding : 0.5rem !important;
+}
+
+.socials > img {
 	width: 32px;
 	height: 32px;
 	padding: auto;
@@ -21,4 +28,9 @@ body{
 .socials{
 	margin-left: auto;
 	margin-right: auto;
+	margin-top: 0rem !important;
+}
+
+.socials > a{
+	border-bottom: none !important;
 }

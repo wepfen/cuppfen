@@ -61,7 +61,7 @@ enableGitInfo = true
   footer = "Made with :heart: and also [Hugo](https://gohugo.io/) with [Cupper](https://github.com/zwbetz-gh/cupper-hugo-theme) theme."
   
   dateFormat = "Jan 2, 2006"
-  katex = true
+  katex = false
   
   hideHeaderLinks = false
   showThemeSwitcher = false
