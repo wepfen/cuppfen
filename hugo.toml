@@ -56,7 +56,7 @@ enableGitInfo = true
 	
 [params]
   description = "Cybersecurity student and noob-tier CTF player."
-  homeMetaContent = "An accessibility-friendly Hugo theme, ported from the original Cupper project."
+  homeMetaContent = "Welcome to my website ! I will post writeups from CTFs, what i would like to share and other stuff."
   
   footer = "Made with :heart: and also [Hugo](https://gohugo.io/) with [Cupper](https://github.com/zwbetz-gh/cupper-hugo-theme) theme."
   
