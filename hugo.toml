@@ -57,6 +57,7 @@ enableGitInfo = true
 [params]
   description = "Cybersecurity student and noob-tier CTF player."
   homeMetaContent = "Welcome to my website. In this blog you will found more about me, my project and i will share writeups and stuff"
+
   
   footer = "Made with :heart: and also [Hugo](https://gohugo.io/) with [Cupper](https://github.com/zwbetz-gh/cupper-hugo-theme) theme."
   
