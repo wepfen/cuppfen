@@ -5,11 +5,14 @@ body{
 
 .buttons_8831 > img{
 	 margin-top: 0rem !important; /* empecher l'ecart entre les lignes de boutons */
+	 
 }
 
 .buttons_8831{
 	
-	margin-top: 0rem;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1rem;
 }
 
 
@@ -20,15 +23,13 @@ body{
 }
 
 .socials > img {
-	width: 32px;
-	height: 32px;
 	padding: auto;
 }
 
 .socials{
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 0rem !important;
+	margin-top: 1rem !important;
 }
 
 .socials > a{
