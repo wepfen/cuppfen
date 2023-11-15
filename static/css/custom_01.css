@@ -1,6 +1,6 @@
 
 body{
-	background: #F5EEC8;
+	background: #7579E7;
 }
 
 .buttons_8831 > ul {
@@ -48,4 +48,6 @@ body{
 
 .socials > a{
 	border-bottom: none !important;
+	border-radius: 100%;
+	object-fit: cover;
 }

@@ -54,7 +54,7 @@ As the description tell us, i will xor the red value of a tuple with it's green 
 
 I will use a python script with the PIL module for image processing found after some research.
 
-```
+```python
 from PIL import Image
 
 flag = Image.open('encoded.png')
